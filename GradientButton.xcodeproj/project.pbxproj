@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002CF916F58677D6EF511E48 /* Pods_GradientButtonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE436EAC82EE33DA729A9C90 /* Pods_GradientButtonUITests.framework */; };
+		18F330E221A28EEE00CB78A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F330E121A28EEE00CB78A1 /* AppDelegate.swift */; };
+		18F330E421A28EEE00CB78A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F330E321A28EEE00CB78A1 /* ViewController.swift */; };
+		18F330E721A28EEE00CB78A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F330E521A28EEE00CB78A1 /* Main.storyboard */; };
+		18F330E921A28EF000CB78A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F330E821A28EF000CB78A1 /* Assets.xcassets */; };
+		18F330EC21A28EF000CB78A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F330EA21A28EF000CB78A1 /* LaunchScreen.storyboard */; };
+		18F330F721A28EF000CB78A1 /* GradientButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F330F621A28EF000CB78A1 /* GradientButtonTests.swift */; };
+		18F3310221A28EF000CB78A1 /* GradientButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3310121A28EF000CB78A1 /* GradientButtonUITests.swift */; };
+		18F3311221A2A6B600CB78A1 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3311121A2A6B600CB78A1 /* GradientButton.swift */; };
+		18F3311421A2BB4800CB78A1 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3311321A2BB4800CB78A1 /* GradientView.swift */; };
+		495E47329875A084FBFE1BC3 /* Pods_GradientButtonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C575A44E72B3ECA2461E4A /* Pods_GradientButtonTests.framework */; };
+		D16BD3D44548EAF77DFCE3BA /* Pods_GradientButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E66C82808F2322AC4EF60F /* Pods_GradientButton.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F330F321A28EF000CB78A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F330D621A28EEE00CB78A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F330DD21A28EEE00CB78A1;
+			remoteInfo = GradientButton;
+		};
+		18F330FE21A28EF000CB78A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F330D621A28EEE00CB78A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F330DD21A28EEE00CB78A1;
+			remoteInfo = GradientButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F330DE21A28EEE00CB78A1 /* GradientButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F330E121A28EEE00CB78A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F330E321A28EEE00CB78A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18F330E621A28EEE00CB78A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F330E821A28EF000CB78A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F330EB21A28EF000CB78A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F330ED21A28EF000CB78A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F330F221A28EF000CB78A1 /* GradientButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F330F621A28EF000CB78A1 /* GradientButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonTests.swift; sourceTree = "<group>"; };
+		18F330F821A28EF000CB78A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F330FD21A28EF000CB78A1 /* GradientButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F3310121A28EF000CB78A1 /* GradientButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonUITests.swift; sourceTree = "<group>"; };
+		18F3310321A28EF000CB78A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F3311121A2A6B600CB78A1 /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		18F3311321A2BB4800CB78A1 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		26E66C82808F2322AC4EF60F /* Pods_GradientButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradientButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		293BE7C4AD65390D279AE567 /* Pods-GradientButtonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientButtonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GradientButtonTests/Pods-GradientButtonTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B4FF7BA7E4003AAE67CD1D5 /* Pods-GradientButtonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientButtonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GradientButtonUITests/Pods-GradientButtonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		32C575A44E72B3ECA2461E4A /* Pods_GradientButtonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradientButtonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60833D9049B25418BCD3EC06 /* Pods-GradientButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradientButton/Pods-GradientButton.debug.xcconfig"; sourceTree = "<group>"; };
+		62BBC8079207473C46D35EE3 /* Pods-GradientButtonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientButtonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradientButtonUITests/Pods-GradientButtonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		870C6D9798C14842AC802370 /* Pods-GradientButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-GradientButton/Pods-GradientButton.release.xcconfig"; sourceTree = "<group>"; };
+		AE436EAC82EE33DA729A9C90 /* Pods_GradientButtonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradientButtonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD429B665A223F40784A0D0 /* Pods-GradientButtonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientButtonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradientButtonTests/Pods-GradientButtonTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F330DB21A28EEE00CB78A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16BD3D44548EAF77DFCE3BA /* Pods_GradientButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F330EF21A28EF000CB78A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495E47329875A084FBFE1BC3 /* Pods_GradientButtonTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F330FA21A28EF000CB78A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002CF916F58677D6EF511E48 /* Pods_GradientButtonUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11306DA4B2F1A3955E5E4442 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26E66C82808F2322AC4EF60F /* Pods_GradientButton.framework */,
+				32C575A44E72B3ECA2461E4A /* Pods_GradientButtonTests.framework */,
+				AE436EAC82EE33DA729A9C90 /* Pods_GradientButtonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18F330D521A28EEE00CB78A1 = {
+			isa = PBXGroup;
+			children = (
+				18F330E021A28EEE00CB78A1 /* GradientButton */,
+				18F330F521A28EF000CB78A1 /* GradientButtonTests */,
+				18F3310021A28EF000CB78A1 /* GradientButtonUITests */,
+				18F330DF21A28EEE00CB78A1 /* Products */,
+				CAB2D7C29A3AD281F82146EF /* Pods */,
+				11306DA4B2F1A3955E5E4442 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18F330DF21A28EEE00CB78A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F330DE21A28EEE00CB78A1 /* GradientButton.app */,
+				18F330F221A28EF000CB78A1 /* GradientButtonTests.xctest */,
+				18F330FD21A28EF000CB78A1 /* GradientButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F330E021A28EEE00CB78A1 /* GradientButton */ = {
+			isa = PBXGroup;
+			children = (
+				18F3311121A2A6B600CB78A1 /* GradientButton.swift */,
+				18F330E121A28EEE00CB78A1 /* AppDelegate.swift */,
+				18F330E321A28EEE00CB78A1 /* ViewController.swift */,
+				18F330E521A28EEE00CB78A1 /* Main.storyboard */,
+				18F330E821A28EF000CB78A1 /* Assets.xcassets */,
+				18F330EA21A28EF000CB78A1 /* LaunchScreen.storyboard */,
+				18F330ED21A28EF000CB78A1 /* Info.plist */,
+				18F3311321A2BB4800CB78A1 /* GradientView.swift */,
+			);
+			path = GradientButton;
+			sourceTree = "<group>";
+		};
+		18F330F521A28EF000CB78A1 /* GradientButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F330F621A28EF000CB78A1 /* GradientButtonTests.swift */,
+				18F330F821A28EF000CB78A1 /* Info.plist */,
+			);
+			path = GradientButtonTests;
+			sourceTree = "<group>";
+		};
+		18F3310021A28EF000CB78A1 /* GradientButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F3310121A28EF000CB78A1 /* GradientButtonUITests.swift */,
+				18F3310321A28EF000CB78A1 /* Info.plist */,
+			);
+			path = GradientButtonUITests;
+			sourceTree = "<group>";
+		};
+		CAB2D7C29A3AD281F82146EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60833D9049B25418BCD3EC06 /* Pods-GradientButton.debug.xcconfig */,
+				870C6D9798C14842AC802370 /* Pods-GradientButton.release.xcconfig */,
+				FFD429B665A223F40784A0D0 /* Pods-GradientButtonTests.debug.xcconfig */,
+				293BE7C4AD65390D279AE567 /* Pods-GradientButtonTests.release.xcconfig */,
+				62BBC8079207473C46D35EE3 /* Pods-GradientButtonUITests.debug.xcconfig */,
+				2B4FF7BA7E4003AAE67CD1D5 /* Pods-GradientButtonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F330DD21A28EEE00CB78A1 /* GradientButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F3310621A28EF000CB78A1 /* Build configuration list for PBXNativeTarget "GradientButton" */;
+			buildPhases = (
+				DD7BC4DC418E3D30490EA0EA /* [CP] Check Pods Manifest.lock */,
+				18F330DA21A28EEE00CB78A1 /* Sources */,
+				18F330DB21A28EEE00CB78A1 /* Frameworks */,
+				18F330DC21A28EEE00CB78A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientButton;
+			productName = GradientButton;
+			productReference = 18F330DE21A28EEE00CB78A1 /* GradientButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F330F121A28EF000CB78A1 /* GradientButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F3310921A28EF000CB78A1 /* Build configuration list for PBXNativeTarget "GradientButtonTests" */;
+			buildPhases = (
+				4689F8A8AC7162B8D3F6AE3F /* [CP] Check Pods Manifest.lock */,
+				18F330EE21A28EF000CB78A1 /* Sources */,
+				18F330EF21A28EF000CB78A1 /* Frameworks */,
+				18F330F021A28EF000CB78A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F330F421A28EF000CB78A1 /* PBXTargetDependency */,
+			);
+			name = GradientButtonTests;
+			productName = GradientButtonTests;
+			productReference = 18F330F221A28EF000CB78A1 /* GradientButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F330FC21A28EF000CB78A1 /* GradientButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F3310C21A28EF000CB78A1 /* Build configuration list for PBXNativeTarget "GradientButtonUITests" */;
+			buildPhases = (
+				8B560F0D5179BC3236F25F93 /* [CP] Check Pods Manifest.lock */,
+				18F330F921A28EF000CB78A1 /* Sources */,
+				18F330FA21A28EF000CB78A1 /* Frameworks */,
+				18F330FB21A28EF000CB78A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F330FF21A28EF000CB78A1 /* PBXTargetDependency */,
+			);
+			name = GradientButtonUITests;
+			productName = GradientButtonUITests;
+			productReference = 18F330FD21A28EF000CB78A1 /* GradientButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F330D621A28EEE00CB78A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18F330DD21A28EEE00CB78A1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					18F330F121A28EF000CB78A1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18F330DD21A28EEE00CB78A1;
+					};
+					18F330FC21A28EF000CB78A1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18F330DD21A28EEE00CB78A1;
+					};
+				};
+			};
+			buildConfigurationList = 18F330D921A28EEE00CB78A1 /* Build configuration list for PBXProject "GradientButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F330D521A28EEE00CB78A1;
+			productRefGroup = 18F330DF21A28EEE00CB78A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F330DD21A28EEE00CB78A1 /* GradientButton */,
+				18F330F121A28EF000CB78A1 /* GradientButtonTests */,
+				18F330FC21A28EF000CB78A1 /* GradientButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F330DC21A28EEE00CB78A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F330EC21A28EF000CB78A1 /* LaunchScreen.storyboard in Resources */,
+				18F330E921A28EF000CB78A1 /* Assets.xcassets in Resources */,
+				18F330E721A28EEE00CB78A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F330F021A28EF000CB78A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F330FB21A28EF000CB78A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4689F8A8AC7162B8D3F6AE3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GradientButtonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B560F0D5179BC3236F25F93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GradientButtonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD7BC4DC418E3D30490EA0EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GradientButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F330DA21A28EEE00CB78A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F330E421A28EEE00CB78A1 /* ViewController.swift in Sources */,
+				18F3311221A2A6B600CB78A1 /* GradientButton.swift in Sources */,
+				18F3311421A2BB4800CB78A1 /* GradientView.swift in Sources */,
+				18F330E221A28EEE00CB78A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F330EE21A28EF000CB78A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F330F721A28EF000CB78A1 /* GradientButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F330F921A28EF000CB78A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F3310221A28EF000CB78A1 /* GradientButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F330F421A28EF000CB78A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F330DD21A28EEE00CB78A1 /* GradientButton */;
+			targetProxy = 18F330F321A28EF000CB78A1 /* PBXContainerItemProxy */;
+		};
+		18F330FF21A28EF000CB78A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F330DD21A28EEE00CB78A1 /* GradientButton */;
+			targetProxy = 18F330FE21A28EF000CB78A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F330E521A28EEE00CB78A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F330E621A28EEE00CB78A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F330EA21A28EF000CB78A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F330EB21A28EF000CB78A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F3310421A28EF000CB78A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F3310521A28EF000CB78A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F3310721A28EF000CB78A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60833D9049B25418BCD3EC06 /* Pods-GradientButton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK7S3D2T2S;
+				INFOPLIST_FILE = GradientButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technoduce.GradientButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F3310821A28EF000CB78A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870C6D9798C14842AC802370 /* Pods-GradientButton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK7S3D2T2S;
+				INFOPLIST_FILE = GradientButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technoduce.GradientButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18F3310A21A28EF000CB78A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD429B665A223F40784A0D0 /* Pods-GradientButtonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK7S3D2T2S;
+				INFOPLIST_FILE = GradientButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technoduce.GradientButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientButton.app/GradientButton";
+			};
+			name = Debug;
+		};
+		18F3310B21A28EF000CB78A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293BE7C4AD65390D279AE567 /* Pods-GradientButtonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK7S3D2T2S;
+				INFOPLIST_FILE = GradientButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technoduce.GradientButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientButton.app/GradientButton";
+			};
+			name = Release;
+		};
+		18F3310D21A28EF000CB78A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62BBC8079207473C46D35EE3 /* Pods-GradientButtonUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK7S3D2T2S;
+				INFOPLIST_FILE = GradientButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technoduce.GradientButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GradientButton;
+			};
+			name = Debug;
+		};
+		18F3310E21A28EF000CB78A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B4FF7BA7E4003AAE67CD1D5 /* Pods-GradientButtonUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK7S3D2T2S;
+				INFOPLIST_FILE = GradientButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technoduce.GradientButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GradientButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F330D921A28EEE00CB78A1 /* Build configuration list for PBXProject "GradientButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F3310421A28EF000CB78A1 /* Debug */,
+				18F3310521A28EF000CB78A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F3310621A28EF000CB78A1 /* Build configuration list for PBXNativeTarget "GradientButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F3310721A28EF000CB78A1 /* Debug */,
+				18F3310821A28EF000CB78A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F3310921A28EF000CB78A1 /* Build configuration list for PBXNativeTarget "GradientButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F3310A21A28EF000CB78A1 /* Debug */,
+				18F3310B21A28EF000CB78A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F3310C21A28EF000CB78A1 /* Build configuration list for PBXNativeTarget "GradientButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F3310D21A28EF000CB78A1 /* Debug */,
+				18F3310E21A28EF000CB78A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F330D621A28EEE00CB78A1 /* Project object */;
+}
